@@ -9,9 +9,8 @@ def generate_images():
   prompt="Motorola walkie talkie illustration in the style of Hayao Miyazaki",
   n=5,
   size="1024x1024"
-)
-
-return images
+  )
+  return images
 
 st.title("Motorola Walkie Talkie Illustrations")
 
