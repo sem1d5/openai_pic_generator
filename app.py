@@ -12,7 +12,7 @@ prompt = st.text_input("Enter a prompt:"
 
 response = openai.Image.create(
   prompt=prompt,
-  n=2,
+  n=5,
   size="1024x1024"
 )
 
