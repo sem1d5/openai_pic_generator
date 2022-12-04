@@ -2,7 +2,7 @@ import os
 import openai
 import streamlit as st
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 # Generate the images
 response = openai.Image.create(
