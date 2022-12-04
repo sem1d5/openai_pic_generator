@@ -5,10 +5,10 @@ import streamlit as st
 openai.api_key = ("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")
 
 def generate_images():
-images = openai.Image.create(
-prompt="Motorola walkie talkie illustration in the style of Hayao Miyazaki",
-n=5,
-size="1024x1024"
+  images = openai.Image.create(
+  prompt="Motorola walkie talkie illustration in the style of Hayao Miyazaki",
+  n=5,
+  size="1024x1024"
 )
 
 return images
