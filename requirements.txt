@@ -1,8 +1,2 @@
-numpy
-pandas
-plotly
 streamlit
-openpyxl
-plotly.express
 openai
-os
