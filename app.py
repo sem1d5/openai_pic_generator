@@ -4,7 +4,6 @@ import streamlit as st
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
 st.title('DALL-E image generator')
 
 prompt = st.text_input("Enter a prompt:"
